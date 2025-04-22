@@ -22,7 +22,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">UVEG anotaciones</a>
+        <a class="navbar-brand" href="./index.html">UVEG anotaciones</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -49,17 +49,7 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#"
-                    >Paradigmas de la programación</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"
-                    >Metodologías de desarrollo de software</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="./paginas/genialis-UVEG.html">genialis de la UVEG</a>
                 </li>
               </ul>
             </li>
@@ -99,21 +89,43 @@
       </div>
     </div>
     <!--contenido de pagina a descargar-->
-    <div class="container-fluid text-center">
-        <div>
-            <h1>Contenido descargable</h1>
-            <div class="row">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="./introduccion-desarrollo-de-software/descargas/Introducción_a_la_programación.pdf" class="btn btn-primary">Descargar</a>
-                    </div>
-                  </div>
+    <div class="container-fluid">
+      <div>
+        <h1 class="text-center">Contenido descargable</h1>
+        <h5 class="mb-4">Clase de Introducción al desarrollo de software</h5>
+    
+        <!-- Cartas con contenido descargable -->
+        <div class="row g-4"> <!-- g-4 da espacio entre columnas y filas -->
+          
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img src="https://i.ytimg.com/vi/_9IH2m1swG4/maxresdefault.jpg" class="card-img-top" alt="Introducción a la programación">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Introducción a la programación</h5>
+                <p class="card-text flex-grow-1">De qué tratan los lenguajes de programación.</p>
+                <a href="./introduccion-desarrollo-de-software/descargas/Introducción_a_la_programación.pdf" class="btn btn-info mt-auto">Descargar PDF</a>
+              </div>
             </div>
+          </div>
+    
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img src="https://caminanteiberico.com/wp-content/uploads/2023/08/Alan-Turing-1.jpg" class="card-img-top" alt="Historia de la programación">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Historia de los lenguajes de programación</h5>
+                <p class="card-text flex-grow-1">Cómo fueron evolucionando y descubrimientos importantes.</p>
+                <a href="./introduccion-desarrollo-de-software/descargas/Historia y evolución de los lenguajes de programación.pdf" class="btn btn-info mt-auto">Descargar PDF</a>
+              </div>
+            </div>
+          </div>
+
+          
         </div>
+      </div>
     </div>
+
+    
+    
     <!-- Bootstrap JS Bundle -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"

@@ -3,3 +3,7 @@
         object-fit: cover;    /* Recorta y centra la imagen */
         filter: brightness(0.7);
     }
+
+.img-h{
+    height: 250px;
+}
