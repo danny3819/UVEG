@@ -1,0 +1,5 @@
+.carousel-item img {
+        height: 30vh;         /* Altura del 70% de la pantalla */
+        object-fit: cover;    /* Recorta y centra la imagen */
+        filter: brightness(0.7);
+    }
