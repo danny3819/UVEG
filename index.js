@@ -19,6 +19,12 @@ app.get("/Tipos-de-lenguajes-de-programacion", (req, res) => {
   res.render("genialis/Introduccion al desarrollo de software/Tipos-de-lenguajes-de-programacion")
 }
 )
+
+app.get("/paginas/algebraING", (req, res) => {
+  res.render("./paginas/algebraING")
+}
+)
+
 app.listen(3000, () => {
   console.log("Server is running on http://localhost:3000")
 }
